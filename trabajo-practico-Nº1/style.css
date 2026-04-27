@@ -25,8 +25,8 @@ p{
 }
 
 .caja1{
-    background-color:#C0392B
-    transition; background-color 1s linear;
+    background-color:#C0392B;
+    transition: background-color 1s linear;
 }
 .caja1:hover{
     background-color:#3F51B5;
