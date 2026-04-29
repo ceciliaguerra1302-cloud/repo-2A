@@ -1,0 +1,12 @@
+
+.caja {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagenes {
+    height: auto;
+    width: 300px;
+}
