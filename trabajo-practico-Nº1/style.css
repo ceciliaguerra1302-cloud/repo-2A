@@ -41,14 +41,14 @@ body {
     text-align: center;
 }
 
-/* Header y Footer Verde Oscuro */
+
 .header-verde, .footer-verde {
-    background-color: #006400; /* Verde oscuro */
+    background-color: #006400;
     color: white;
     padding: 15px;
 }
 
-/* Navegación */
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -61,10 +61,10 @@ body {
 .menu li { margin-left: 20px; }
 .menu a { color: white; text-decoration: underline; }
 
-/* Título Central */
+
 .titulo-verde { color: #006400; margin-top: 20px; }
 
-/* Contenedor de las 3 tarjetas */
+
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -72,7 +72,7 @@ body {
     border-top: 1px solid #ccc; /* Línea gris delgada */
 }
 
-/* Estilo de cada tarjeta (Card) */
+
 .card { width: 30%; }
 
 .img-box {
