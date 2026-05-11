@@ -31,3 +31,64 @@ p{
 .caja1:hover{
     background-color:#3F51B5;
 }
+
+/* Reset básico */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Color crema de fondo */
+    text-align: center;
+}
+
+/* Header y Footer Verde Oscuro */
+.header-verde, .footer-verde {
+    background-color: #006400; /* Verde oscuro */
+    color: white;
+    padding: 15px;
+}
+
+/* Navegación */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu { display: flex; list-style: none; }
+.menu li { margin-left: 20px; }
+.menu a { color: white; text-decoration: underline; }
+
+/* Título Central */
+.titulo-verde { color: #006400; margin-top: 20px; }
+
+/* Contenedor de las 3 tarjetas */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-top: 1px solid #ccc; /* Línea gris delgada */
+}
+
+/* Estilo de cada tarjeta (Card) */
+.card { width: 30%; }
+
+.img-box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-box {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.info-box h3 { margin-bottom: 10px; }
