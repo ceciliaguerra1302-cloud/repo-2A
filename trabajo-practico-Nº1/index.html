@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Repaso Completo - Programación III</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace CSS Externo [2, 3] -->
+</head>
+<body>
+
+    <!-- ETIQUETAS SEMÁNTICAS (Clase 3) [4, 5] -->
+    <header id="inicio">
+        <div class="logo">Mi Sitio</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#practica">Cursos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECCIÓN DE INTRODUCCIÓN (Clase 1) [6, 7] -->
+        <section class="intro">
+            <h1>Programación 3</h1>
+            <p><strong>Replicando interfaces</strong> con <em>HTML y CSS</em>.</p>
+            <p><small>Uso de flexbox, grid, imágenes y estilos avanzados.</small></p>
+            <hr> <!-- Línea horizontal [7] -->
+        </section>
+
+        <!-- CONTENEDOR DE TARJETAS CON FLEXBOX (CSS 1 y 3) [8, 9] -->
+        <section class="contenedor-tarjetas" id="practica">
+            <article class="tarjeta">
+                <img src="img1.jpg" alt="Práctica">
+                <h3>Práctica</h3>
+                <p>Organizar contenedores y espaciar elementos.</p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="img2.jpg" alt="Objetivo">
+                <h3>Objetivo</h3>
+                <p>Interpretar un diseño y reproducirlo correctamente.</p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="img3.jpg" alt="Resultados">
+                <h3>Resultados</h3>
+                <p>Una habilidad sólida para el diseño web.</p>
+            </article>
+        </section>
+
+        <!-- SECCIÓN DE GRID Y TABLAS (Clase 1 y CSS 3) [10-12] -->
+        <section class="info-adicional">
+            <aside>
+                <h3>¿Qué estamos usando?</h3>
+                <table border="1"> <!-- Tabla [12] -->
+                    <thead>
+                        <tr><th>Tecnología</th><th>Versión</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>HTML</td><td>5</td></tr>
+                        <tr><td>CSS</td><td>3</td></tr>
+                    </tbody>
+                </table>
+            </aside>
+
+            <!-- FORMULARIO (Clase 2) [13] -->
+            <section id="contacto">
+                <h3>Contacto</h3>
+                <form action="">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <label>Nombre:</label>
+                        <input type="text" placeholder="Tu nombre" required>
+                        
+                        <label>Interés:</label>
+                        <input type="radio" name="interes" value="web"> Web
+                        <input type="radio" name="interes" value="git"> Git
+                        
+                        <button type="submit" id="boton-enviar">Enviar</button>
+                    </fieldset>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 - Programación 3 - Todos los derechos reservados &copy;</p>
+    </footer>
+
+</body>
+</html>
