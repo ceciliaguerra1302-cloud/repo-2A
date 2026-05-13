@@ -1,93 +1,65 @@
-p{
-    font-family: 'Open Sans';
-    font-size:14px;
-    color:#ccc;
-    line-height: 18px;
-    margin-bottom: 20px;
+body{
+    background-color: beige;
+    margin:0;
+    font-family: Arial;
 }
 
-#boton{ 
-    background-color:#ccc;
-    color:#a3257d;
-    width: 100px;
-    padding: 20px;
-    border:1px solid #000;
-    border-radius: 5px;
-}
+header{
+    background-color: green;
+    color:white;
 
-.boton{
-    background-color:#ccc;
-    color:#fff;
-    width: 100px;
-    padding: 20px;
-    border:1px solid #000;
-    border-radius: 5px;
-}
-
-.caja1{
-    background-color:#C0392B;
-    transition: background-color 1s linear;
-}
-.caja1:hover{
-    background-color:#3F51B5;
-}
-
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
-body { 
-    font-family: Arial, sans-serif;
-    background-color: #f5f5dc; /* Color crema de fondo */
-    text-align: center;
-}
-
-
-.header-verde, .footer-verde {
-    background-color: #006400;
-    color: white;
-    padding: 15px;
-}
-
-
-.nav-container {
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
+    align-items:center;
+
+    padding:20px;
 }
 
-.menu { display: flex; list-style: none; }
-.menu li { margin-left: 20px; }
-.menu a { color: white; text-decoration: underline; }
+nav a{
+    color:white;
+    margin:10px;
+}
 
+.contenido{
+    text-align:center;
+    margin-top:30px;
+}
 
-.titulo-verde { color: #006400; margin-top: 20px; }
-
-
-.flex-container {
-    display: flex;
+.imagenes{
+    display:flex;
     justify-content: space-around;
-    padding: 40px;
-    border-top: 1px solid #ccc; /* Línea gris delgada */
+
+    margin-top:40px;
 }
 
-
-.card { width: 30%; }
-
-.img-box {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 15px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.imagenes img{
+    width:200px;
+    height:200px;
 }
 
-.info-box {
-    background-color: white;
-    padding: 15px;
-    border: 1px solid #ddd;
+.cajas{
+    display:flex;
+    justify-content: space-around;
+
+    margin-top:30px;
 }
 
-.info-box h3 { margin-bottom: 10px; }
+.caja{
+    background-color:white;
+    width:220px;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+footer{
+    background-color: green;
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:40px;
+}
