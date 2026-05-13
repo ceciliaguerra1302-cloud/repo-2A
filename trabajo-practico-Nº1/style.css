@@ -1,3 +1,112 @@
+/* Estilos generales [13] */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Color crema de fondo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado con Flexbox [2, 3] */
+header {
+    background-color: #006400; /* Verde oscuro */
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between; /* Logo a la izquierda, menú a la derecha */
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none; /* Quita los puntos de la lista [14] */
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Contenido Principal */
+.intro {
+    text-align: center; /* Centra el texto [15] */
+    padding: 40px;
+}
+
+.intro h1 {
+    color: #228b22; /* Verde bosque */
+}
+
+hr {
+    width: 90%;
+    border: 0.5px solid #ccc;
+}
+
+/* Contenedor de Tarjetas con Flexbox [3, 16] */
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: space-around; /* Espacio uniforme entre tarjetas */
+    padding: 40px;
+    flex-wrap: wrap; /* Para diseño responsivo [17, 18] */
+}
+
+.tarjeta {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px; /* Esquinas redondeadas [19] */
+}
+
+.tarjeta img {
+    width: 100%; /* La imagen se ajusta al ancho de la tarjeta [11] */
+    height: auto;
+}
+
+.tarjeta h3 {
+    margin-top: 15px;
+}
+
+/* Pie de página [4] */
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
     background-color: beige;
     margin:0;
